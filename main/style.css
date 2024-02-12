@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+  }
+  
+  .AppLogo {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .Logo_Img {
+    width: 100%;
+    height: 100%;
+    zoom: 100;
+  }
+  
+  .LanguageDropdown {
+    background: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .LanguageDropdown:focus {
+    outline: none;
+  }
+  
+  .LanguageDropdown option {
+    background-color: black;
+  }
+  
+  .dropdown__container {
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .signin__button {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .navbarItems {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .image_container {
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .HomeBackground {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .Bg_Overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+  }
+  
+  .MainCard {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .CardTitle {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  
+  .CardSubTitle,
+  .CardDiscription {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .CardDiscription {
+    margin: 0 50px;
+  }
+  
+  .email__input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-left: 7px;
+  }
+  .email__label {
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    color: rgb(153, 149, 149);
+    transition: 0.5s;
+  }
+  
+  .EmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .form__container {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    position: relative;
+  }
+
+  
+  .StartingButton {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .CharactersticsPage {
+    border-top: 8px solid #222;
+    padding: 2rem 1rem;
+  }
+  
+  .CharactersticsDetails {
+    text-align: center;
+  }
+  
+  .CharactersticsTitle {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .CharactersticsSubTitle {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .ImgContainer {
+    width: 100%;
+    position: relative;
+  }
+  .ChildrenCard {
+    width: 100%;
+  }
+  
+  .Television {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 13%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    z-index: -2;
+  }
+  
+  
+ 
+  
+  .poster {
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  .Questions {
+    width: 100%;
+  }
+  .Question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+  }
+  
+ 
+  
+  
+  .QuestionContainer {
+    border-top: 8px solid #222;
+    padding: 2rem 0;
+  }
+  .QuestionHeading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 3rem;
+  }
+  
+  .QuestionList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .EmailCard {
+    text-align: center;
+  }
+  
+  .EmailCard > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 2rem 0;
+  }
+  
+  footer {
+    border-top: 8px solid #333;
+    padding: 2rem 1rem;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .Row_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .FooterContact > h4 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar {
+      padding: 2% 5%;
+    }
+  
+    .AppLogo {
+      width: 150px;
+    }
+  
+    .signin__button {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+    .dropdown__container {
+      padding: 10px 5px;
+    }
+  
+    .navbarItems {
+      gap: 30px;
+    }
+  
+    .MainCard {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .form__container {
+      width: 50%;
+    }
+    .EmailContainer {
+      flex-direction: row;
+      align-items: center;
+      gap: 1px;
+    }
+    .StartingButton {
+      height: 50px;
+    }
+  
+    .CharactersticsPage {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  
+    .CharactersticsDetails {
+      text-align: left;
+      padding: 0 6rem;
+    }
+  
+    .CharactersticsTitle {
+      font-size: 50px;
+    }
+  
+    .CharactersticsSubTitle {
+      font-size: 25px;
+    }
+  
+    .ImgContainer {
+      max-width: 500px;
+    }
+  
+    .secondProperty {
+      max-width: 20em;
+      height: 100px;
+      padding: 1rem;
+    }
+    .poster__container {
+      width: 20%;
+    }
+    .QuestionList {
+      padding: 1rem 25rem;
+    }
+    .EmailCard {
+      transform: translateX(16%);
+    }
+    footer {
+      padding: 2rem 20rem;
+      justify-content: flex-start;
+      text-align: left;
+      align-items: flex-start;
+    }
+  
+    .Row_2 {
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+    }
+  
+    .FooterContact,
+    .Row_3,
+    .Row_4 {
+      align-self: flex-start;
+    }
+  }
+  
+  @media (min-width: 1254px) {
+  }
+  
